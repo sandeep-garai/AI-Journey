@@ -28,3 +28,40 @@ So the different softwares can work on different versions as per need of the sof
 
 Differnence between == and is?
 the == operator checks for the same memory location, whereas is operator checks for the same value of the variables
+
+
+
+
+
+
+DAY 2
+
+list is a data structure that can store different datatypes and can be scaled up for storage. It is mutable, can be indexed.
+
+tuple is a data structure that is immutable, and can be indexed
+
+dictionary is a data structure that store the data in key-value pairs and is accessed through the key, mutable
+
+set is a data structue that is mutable, used hashing to save the data, can not be indexed, contains only the unique values.
+
+collections.Counter is a function by which the string characters are counted.
+
+defaultdict is a special type of dictionary that can be built to store datatypes and can be used without initialization.
+
+deque is a data structure that has the property of adding and removing the elements from both end. 
+
+Why are dictionaries faster than lists for searching?
+Difference between list and tuple?
+What is hashing?
+Why is a set faster?
+When would you use deque instead of a list?
+
+dictionaries are faster than list for lookup as dictionaries used key pair to search for the value, and the data structure used hashing to store the value, hence easy to search O(n) avg.
+
+list is mutable, indexable data structure used to store different datatype, whereas tuple is immutable, indexable data structure to store data.
+
+hashing is a form of data storage technique where the actual data is passed through a hash table, where it got a hashing value, and based on the hash value, the storage happens.
+
+set is faster as it use hashing for storing
+
+deque is more useful than a list for easy inserting and removal of elements either from the front or the back. it can be easy rotated
